@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-14T00:00:00.000Z",
+  "repoRoot": "<target-repo-root>",
+  "agentsPath": "AGENTS.md",
+  "summary": {
+    "score": 96,
+    "status": "Healthy",
+    "totalLines": 135,
+    "nonEmptyLines": 94,
+    "requiredSectionsPresent": 7,
+    "requiredSectionsMissing": 0,
+    "routeExpectationsMatched": 11,
+    "routeExpectationsMissing": 0,
+    "directReferenceCount": 39,
+    "directMissingReferenceCount": 0,
+    "routedDocumentCount": 28,
+    "routedMissingReferenceCount": 0,
+    "detailedSectionCount": 1
+  },
+  "breakdown": {
+    "structureScore": 25,
+    "routeScore": 20,
+    "directReferenceScore": 20,
+    "routedDocumentScore": 15,
+    "concisionScore": 16
+  },
+  "checks": {
+    "requiredSections": {
+      "present": [
+        "## Source-of-truth priority",
+        "## Operating mode",
+        "## Task modes",
+        "## Core reads",
+        "## Task routing (by change type)",
+        "## Small-task fast path",
+        "## Definition of done"
+      ],
+      "missing": []
+    },
+    "routeCoverage": {
+      "matched": [
+        "core-read-project",
+        "core-read-specs",
+        "core-read-plans",
+        "core-read-notes",
+        "route-project",
+        "route-specs",
+        "route-notes",
+        "skills-index",
+        "skill-refactor-guardrails",
+        "skill-plan-closeout",
+        "playbook-escalation"
+      ],
+      "missing": [],
+      "total": 11
+    },
+    "directReferences": {
+      "references": [],
+      "missing": []
+    },
+    "detailedSections": {
+      "present": [
+        "## Execution contract (phase-first)"
+      ],
+      "count": 1
+    },
+    "routedDocuments": []
+  }
+}
